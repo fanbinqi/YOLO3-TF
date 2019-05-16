@@ -38,9 +38,8 @@ YOLO v3 re-implementation, and our code is based [stronger-yolo](https://github.
     python rename.py
     ``` 
     (2) mobilenet v2
-    if want to train model with MoBileNet V2
+    if want to train model with MoBileNet V2, the re-trained model is in our repo ./weights
     ```bash
-    Download [mobilenet_v2_1.0_224.weights](https://storage.googleapis.com/mobilenet_v2/checkpoints/mobilenet_v2_1.0_224.tgz) firstly, 
     put the initial weight into `weights/`.
     ```
 
