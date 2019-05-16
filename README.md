@@ -1,5 +1,5 @@
 # YOLO3-TF
-YOLO v3 re-implementation, and our code is based[stronger-yolo]{https://github.com/Stinky-Tofu/Stronger-yolo}
+YOLO v3 re-implementation, and our code is based [stronger-yolo](https://github.com/Stinky-Tofu/Stronger-yolo), a huge thank to him.
 
 # Use backbone with VGG-16 and Mobilenet V2
 
@@ -50,11 +50,12 @@ YOLO v3 re-implementation, and our code is based[stronger-yolo]{https://github.c
     python train.py
     ```
 5. Test<br>
-    Download weight file [yolo_test.ckpt](https://drive.google.com/drive/folders/1We_P5L4nlLofR0IJJXzS7EEklZGUb9sz)<br>
     **If you want to get a higher mAP, you can set the score threshold to 0.01、use multi scale test、flip test.<br>
     If you want to use it in actual projects, or if you want speed, you can set the score threshold to 0.2.<br>**
     ``` bash
-    python test.py --gpu=0 --map_calc=True --weights_file=model_path.ckpt
+    python test.py
     cd mAP
-    python main.py -na -np
+    python main.py
     ```
+
+#If you are interested in this project, please QQ me (374873360)
