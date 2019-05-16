@@ -1,5 +1,5 @@
 # YOLO3-TF
-YOLO v3 re-implementation
+YOLO v3 re-implementation, and our code is based[stronger-yolo]{https://github.com/Stinky-Tofu/Stronger-yolo}
 
 # Use backbone with VGG-16 and Mobilenet V2
 
