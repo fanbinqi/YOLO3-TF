@@ -28,7 +28,7 @@ YOLO v3 re-implementation, and our code is based [stronger-yolo](https://github.
     python voc_annotation.py
     ```
 3. prepare initial weights<br>
-    3.1 yolov3
+    (1) yolov3
     Download [YOLOv3-608.weights](https://pjreddie.com/media/files/yolov3.weights) firstly, 
     put the yolov3.weights into `yolov3_to_tf/`, and then 
     ```bash
@@ -37,7 +37,7 @@ YOLO v3 re-implementation, and our code is based [stronger-yolo](https://github.
     cd ..
     python rename.py
     ``` 
-    3.2 mobilenet v2
+    (2) mobilenet v2
     if want to train model with MoBileNet V2
     ```bash
     Download [mobilenet_v2_1.0_224.weights](https://storage.googleapis.com/mobilenet_v2/checkpoints/mobilenet_v2_1.0_224.tgz) firstly, 
