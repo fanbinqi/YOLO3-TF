@@ -1,7 +1,7 @@
 # YOLO3-TF
 YOLO v3 re-implementation, and our code is based [stronger-yolo](https://github.com/Stinky-Tofu/Stronger-yolo), a huge thank to him.
 
-# Use backbone with Darknet53 and Mobilenet V2
+# Use pre-trained model with YOLO V3 and Mobilenet V2
 
 ## Usage
 1. clone this repository
